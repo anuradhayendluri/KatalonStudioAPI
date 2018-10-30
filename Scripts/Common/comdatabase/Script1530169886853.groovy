@@ -33,5 +33,5 @@ while(recordset.next())
     WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)
 	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)
 	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityID)
-
+	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)
 }
