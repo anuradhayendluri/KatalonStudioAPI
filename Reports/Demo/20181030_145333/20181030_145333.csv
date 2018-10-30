@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,,,2018-10-30 14:53:37,2018-10-30 14:53:41,4.405s,ERROR
+,,,,,,
+Test Cases/Common/EsbToken,,,2018-10-30 14:53:38,2018-10-30 14:53:38,0.848s,ERROR
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,,,2018-10-30 14:53:38,2018-10-30 14:53:38,0.048s,ERROR
+,,,,,,
+Test Cases/TestCases/Demo/Get all Communities,,,2018-10-30 14:53:38,2018-10-30 14:53:40,1.693s,FAILED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Get All Communities),,,2018-10-30 14:53:39,2018-10-30 14:53:39,0.097s,PASSED
+Statement - request.setHttpHeaderProperties(CustomKeywords.requestHeaders.Headers.AddHeaders()),,,2018-10-30 14:53:39,2018-10-30 14:53:39,0.034s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),,,2018-10-30 14:53:39,2018-10-30 14:53:40,0.802s,PASSED
+verifyResponseStatusCode,,,2018-10-30 14:53:40,2018-10-30 14:53:40,0.105s,FAILED
+,,,,,,
+Test Cases/TestCases/oauth2tests/Aouth2SampleCodeTest,,,2018-10-30 14:53:40,2018-10-30 14:53:41,0.447s,PASSED
+oauth2.SampleCode.AuthCode,,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.018s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/Post Request,,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.411s,FAILED
+Statement - req = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Post Request),,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.019s,PASSED
+Statement - req.setHttpHeaderProperties(CustomKeywords.requestHeaders.Headers.AddHeaders()),,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.005s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(req),,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.053s,PASSED
+verifyResponseStatusCode,,,2018-10-30 14:53:41,2018-10-30 14:53:41,0.002s,FAILED
