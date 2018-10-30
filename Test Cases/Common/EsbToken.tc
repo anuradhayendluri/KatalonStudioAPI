@@ -4,7 +4,7 @@
    <name>EsbToken</name>
    <tag></tag>
    <comment>esb&quot; + GlobalVariable.g_esb
-esbsearch&quot; + GlobalVariable.g_esbSearch
+esbsearch&quot; + GlobalVariable.g_lmesbtoken
 ESB DECRYPTED &quot; + decoded
 esb &quot; + GlobalVariable.g_esb
 userid&quot; + GlobalVariable.g_UserID</comment>
