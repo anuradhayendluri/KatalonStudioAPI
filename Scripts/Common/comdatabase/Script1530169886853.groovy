@@ -30,9 +30,8 @@ while(recordset.next())
 	Object activityName=recordset.getObject('ActivityName')
 	Object activityID=recordset.getObject('Activity_PK')
 	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityID)
-WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)<<<<<<< .mine
+    WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)
 	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityName)
-=======
 	WebUI.comment('ActivityName is '+activityName+" and acitivity ID is"+activityID)
->>>>>>> .theirs
+
 }
