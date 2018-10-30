@@ -31,7 +31,7 @@ import org.apache.commons.lang.StringUtils as StringUtils
 import groovy.json.JsonParser
 import groovy.json.JsonSlurper
 import com.google.gson.Gson
-CustomKeywords.'dbConnectionPackage.DBConnectionKeyword.CloseConnections'()
+//CustomKeywords.'dbConnectionPackage.DBConnectionKeyword.CloseConnections'()
 
 // changed
 

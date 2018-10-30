@@ -85,6 +85,7 @@
 			<attribute name="javadoc_location" value="file:/C:/KatalonStudio/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/configuration/resources/apidocs/com.kms.katalon.core.webservice/"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/KatalonStudio/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/wsdl4j_1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/KatalonStudio/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/KatalonStudio/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
@@ -95,6 +96,18 @@
 	<classpathentry kind="lib" path="C:/GitCode/KatalonStudioAPI/Drivers/mssql-jdbc-6.4.0.jre9.jar"/>
 	<classpathentry kind="lib" path="C:/GitCode/KatalonStudioAPI/Drivers/mysql-connector-java-8.0.11.jar"/>
 	<classpathentry kind="lib" path="C:/GitCode/KatalonStudioAPI/Drivers/sqljdbc4.jar"/>
+=======
+	<classpathentry kind="lib" path="D:/katalonStudio5.8.3/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/wsdl4j_1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/katalonStudio5.8.3/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar"/>
+	<classpathentry kind="lib" path="D:/katalonStudio5.8.3/Katalon_Studio_Windows_64-5.8.3/Katalon_Studio_Windows_64-5.8.3/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/javax.json-1.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/mssql-jdbc-6.4.0.jre7.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/mssql-jdbc-6.4.0.jre8.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/mssql-jdbc-6.4.0.jre9.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="D:/Tortoise/KatalonStudioAPI/Drivers/sqljdbc4.jar"/>
+>>>>>>> 3ce7e65bfc07a45d1eaa966b6923de574c8edd6b
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
