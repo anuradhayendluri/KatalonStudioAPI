@@ -786,31 +786,5 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-		<filter>
-<<<<<<< HEAD
-			<id>1540891380503</id>
-=======
-			<id>1540891484197</id>
->>>>>>> 3ce7e65bfc07a45d1eaa966b6923de574c8edd6b
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-<<<<<<< HEAD
-			<id>1540891380524</id>
-=======
-			<id>1540891484215</id>
->>>>>>> 3ce7e65bfc07a45d1eaa966b6923de574c8edd6b
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
 	</filteredResources>
 </projectDescription>
