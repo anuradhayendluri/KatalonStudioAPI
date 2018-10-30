@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-135424Verify the default role of the user added to the community is a contributor role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9807c32-7828-4646-b338-922e14056506</testCaseGuid>
+</TestCaseEntity>

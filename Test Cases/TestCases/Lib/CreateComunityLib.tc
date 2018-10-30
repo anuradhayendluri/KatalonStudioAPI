@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Community as a reusable method</description>
+   <name>CreateComunityLib</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e7506a8-e778-4809-b0eb-250f5d7b6080</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a72c576-006d-4466-92f3-cc4ee7c93ba3</id>
+      <masked>false</masked>
+      <name>CommunityName</name>
+   </variable>
+</TestCaseEntity>

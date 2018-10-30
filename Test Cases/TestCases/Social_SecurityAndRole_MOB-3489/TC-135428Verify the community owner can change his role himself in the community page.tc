@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the community owner can change his role himself in the community page</description>
+   <name>TC-135428Verify the community owner can change his role himself in the community page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36bf120b-0804-4860-8494-9e67d8a60d22</testCaseGuid>
+</TestCaseEntity>

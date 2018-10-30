@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DemoTEST</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-10-01T13:06:23</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>03b43bf3-c488-4faa-bec7-bafb1e2010c1</testSuiteGuid>
+   <testCaseLink>
+      <guid>002feeb3-07eb-42a5-ae23-22f843028b8a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Common/ContributerEsbToken</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11153e46-51e4-4067-9f40-7d3c58f6efa2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>099f0058-e884-4846-ad8d-7453118c5d4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fbe0167-9c22-47a2-b11e-569bf0d355aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/EsbToken</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf290944-a0e4-460f-a7b6-d9eb191ce614</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/ModeratorEsbToken</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6186146b-0d81-4f11-b30a-48f567a2494b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b6db2391-125c-4cd1-a830-f3d8a82b39c7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>926e15bd-70cf-479b-8f2b-9ee15a870cbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135456_TC-135457 Moderator is able to delete blog post in the Blog pcreated by self</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

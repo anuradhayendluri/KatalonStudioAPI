@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Display of Community Content when  Ad Hoc Community is configured with Enable Blog Posts</description>
+   <name>TC_19774Verify Display of Community Content when Ad Hoc Community is configured with Enable Blog Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85aa3919-6041-4fc5-b594-dd95ba744bf0</testCaseGuid>
+</TestCaseEntity>

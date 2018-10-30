@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get Discussions</description>
+   <name>Get Discussions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>739fc676-7083-472c-a834-1ae59e43345b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4928e7c-9f6a-4030-b410-1c2e7e6f596b</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

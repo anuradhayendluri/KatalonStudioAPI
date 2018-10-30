@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete the community by passing community</description>
+   <name>Delete Community</name>
+   <tag>tag1</tag>
+   <comment></comment>
+   <testCaseGuid>5a56029c-f4ac-4546-b54f-a2d35543b311</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c08d9830-8d2a-433d-8d71-14971c595656</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+</TestCaseEntity>

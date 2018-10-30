@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get members</description>
+   <name>Get members from community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>557d20de-33ad-40aa-9d3c-d50a31ef4217</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16cb30a2-40d1-4fe9-9ee4-12ed8b4407dc</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

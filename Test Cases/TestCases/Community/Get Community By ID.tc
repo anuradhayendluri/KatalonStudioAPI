@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get Community By ID</description>
+   <name>Get Community By ID</name>
+   <tag></tag>
+   <comment>Get response &quot; + Res</comment>
+   <testCaseGuid>cdb15786-1294-4a4b-9178-081fb052436a</testCaseGuid>
+</TestCaseEntity>

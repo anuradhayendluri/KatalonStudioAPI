@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Blog Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59ddd31b-ecd0-4764-ac0c-5bbe86cef1b3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6037b64b-6909-43e6-b1e6-973e0fb9093d</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

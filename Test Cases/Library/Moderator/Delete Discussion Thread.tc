@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Discussion Thread</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afb0d92f-6ab1-456a-baa5-fec17af832d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4cbbf0f4-956f-4e2d-b327-bf2a73a5b72c</id>
+      <masked>false</masked>
+      <name>DiscussionID</name>
+   </variable>
+</TestCaseEntity>

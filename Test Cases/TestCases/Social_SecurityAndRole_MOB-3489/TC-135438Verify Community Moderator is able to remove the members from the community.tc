@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Community Moderator is able to remove the members from the community</description>
+   <name>TC-135438Verify Community Moderator is able to remove the members from the community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44fb796c-bc65-473d-b917-c4135355b501</testCaseGuid>
+</TestCaseEntity>

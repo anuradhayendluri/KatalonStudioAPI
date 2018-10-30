@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Esb token for login with different users</description>
+   <name>ModeratorEsbToken</name>
+   <tag></tag>
+   <comment>s
+printing string anuadha
+substring&quot; + substring
+length&quot; + lenght
+esb&quot; + esb
+esb api token &quot; + esbapitoken
+ESB DECRYPTED &quot; + decoded
+esb &quot; + GlobalVariable.g_esb
+userid&quot; + GlobalVariable.g_UserID</comment>
+   <testCaseGuid>6488f2aa-4e04-4ed3-9d94-2a69f9583d0f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6186146b-0d81-4f11-b30a-48f567a2494b</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6db2391-125c-4cd1-a830-f3d8a82b39c7</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

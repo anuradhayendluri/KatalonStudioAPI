@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ets the site map for mobile</description>
+   <name>GetSiteMap</name>
+   <tag></tag>
+   <comment>response of mobile site&quot; + Res</comment>
+   <testCaseGuid>c1c34100-2dce-4b17-8937-23b537295ea1</testCaseGuid>
+</TestCaseEntity>

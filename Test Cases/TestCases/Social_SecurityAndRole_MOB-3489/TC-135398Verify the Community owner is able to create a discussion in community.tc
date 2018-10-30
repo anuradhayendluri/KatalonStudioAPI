@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Contributor creating Discussion in a Community</description>
+   <name>TC-135398Verify the Community owner is able to create a discussion in community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f3c3cd0-288a-46c8-ae93-77921d8a40d1</testCaseGuid>
+</TestCaseEntity>

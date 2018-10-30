@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a  member to community</description>
+   <name>Add a member to community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c903ae2a-27c7-4019-bd79-1c564a006917</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6c538a7-3260-46e8-a0ce-6356a807918f</id>
+      <masked>false</masked>
+      <name>rating</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8b5031c-7526-48ba-b9b2-2c882fc00c1b</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b96172e0-f600-4cc1-9b16-e30a8e4063c1</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93ec2cf8-f93f-4dd6-b61f-2082f926c667</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+</TestCaseEntity>

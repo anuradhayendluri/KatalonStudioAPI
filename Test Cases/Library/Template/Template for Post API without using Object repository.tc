@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Template for Post API without using Object repository</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>010ecc6a-ef20-44c0-b90f-1a55e89baa8f</testCaseGuid>
+</TestCaseEntity>

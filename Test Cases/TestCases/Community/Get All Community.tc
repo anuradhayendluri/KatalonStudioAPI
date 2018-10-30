@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gets all the communities</description>
+   <name>Get All Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5134f51-f831-4c34-b32d-5dc34082241d</testCaseGuid>
+</TestCaseEntity>

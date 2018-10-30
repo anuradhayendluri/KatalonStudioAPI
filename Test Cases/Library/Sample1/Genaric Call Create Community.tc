@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Genaric Call Create Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d932cea4-24e7-4540-9811-976e02ad60f6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>647e4c16-97d0-4ee5-8242-14bf819cd505</id>
+      <masked>false</masked>
+      <name>CommunityName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f37537c-c98d-407f-8c82-138c56501ab0</id>
+      <masked>false</masked>
+      <name>CommunityDesc</name>
+   </variable>
+</TestCaseEntity>

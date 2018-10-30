@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EsbToken</name>
+   <tag></tag>
+   <comment>esb&quot; + GlobalVariable.g_esb
+esbsearch&quot; + GlobalVariable.g_esbSearch
+ESB DECRYPTED &quot; + decoded
+esb &quot; + GlobalVariable.g_esb
+userid&quot; + GlobalVariable.g_UserID</comment>
+   <testCaseGuid>e20855e4-05be-4e90-98b6-c0fb031b5268</testCaseGuid>
+</TestCaseEntity>

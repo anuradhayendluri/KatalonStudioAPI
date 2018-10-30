@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sample</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab83fe8c-b2f2-4824-8af2-aaddd17dda61</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1145f463-ab3f-4755-82a4-d92773537b6e</id>
+      <masked>false</masked>
+      <name>CommunityName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5aa94b01-354d-484e-8e10-3ff0067e7f15</id>
+      <masked>false</masked>
+      <name>CommunityDesc</name>
+   </variable>
+</TestCaseEntity>

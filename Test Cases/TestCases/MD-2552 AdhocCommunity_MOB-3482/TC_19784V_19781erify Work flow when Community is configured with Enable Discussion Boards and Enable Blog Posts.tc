@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Configuring with Enable Discussion Boards and Allow File Uploads options in Ad Hoc Community</description>
+   <name>TC_19784V_19781erify Work flow when Community is configured with Enable Discussion Boards and Enable Blog Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c52e37f6-94f2-48d3-bf29-8ba76f423772</testCaseGuid>
+</TestCaseEntity>

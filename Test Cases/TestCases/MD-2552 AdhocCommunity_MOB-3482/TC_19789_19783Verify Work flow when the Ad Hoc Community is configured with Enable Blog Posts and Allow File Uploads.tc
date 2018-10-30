@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Work flow when the Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads</description>
+   <name>TC_19789_19783Verify Work flow when the Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be611184-3c4f-43b6-88f6-de1132d69622</testCaseGuid>
+</TestCaseEntity>

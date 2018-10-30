@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check user will not able to rate the community if rating  is private</description>
+   <name>TC-19861Check user will not able to rate the community if rating is private</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d0a055b-07ba-4846-b6ed-b9179c12b43e</testCaseGuid>
+</TestCaseEntity>

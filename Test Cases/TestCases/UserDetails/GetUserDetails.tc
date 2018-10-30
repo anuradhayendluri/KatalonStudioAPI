@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gets the user details for the current /other user</description>
+   <name>GetUserDetails</name>
+   <tag></tag>
+   <comment>response body content &quot; + userDetailsRes.getResponseText()
+ss&quot; + ss
+ID&quot; + managerID</comment>
+   <testCaseGuid>29d4d5c6-6646-4c3c-8ed4-b78baeae2905</testCaseGuid>
+</TestCaseEntity>

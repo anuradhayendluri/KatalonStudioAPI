@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a discussion thread</description>
+   <name>Create a discussion thread</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c70cdb12-892a-4612-9016-82d98af32d5e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>453b5df0-7da5-4dfe-ac30-01b60a6a72fc</id>
+      <masked>false</masked>
+      <name>DiscussionID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdb78fe8-6030-4cf4-b51b-b72cf345ec5b</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

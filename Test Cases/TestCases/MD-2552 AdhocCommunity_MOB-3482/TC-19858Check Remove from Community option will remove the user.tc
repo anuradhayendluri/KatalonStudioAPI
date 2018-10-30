@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Remove from Community option will remove the user</description>
+   <name>TC-19858Check Remove from Community option will remove the user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6b7a85a-b626-4578-bd3f-b2554228a0fb</testCaseGuid>
+</TestCaseEntity>

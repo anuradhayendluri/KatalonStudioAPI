@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify non member of a public community can provide rating to the community</description>
+   <name>TC-135477Verify non member of a public community can provide rating to the community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d7f3cce-1134-4222-8c18-067c754a24cd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Community with special characters</description>
+   <name>Create Community with special characters</name>
+   <tag></tag>
+   <comment>Community id is :&quot; + CustomKeywords.getAttributeValue.GetAttributeValue.GetAttribute(response).id</comment>
+   <testCaseGuid>be1433a4-497a-4d49-bf02-738d8bf983cc</testCaseGuid>
+</TestCaseEntity>

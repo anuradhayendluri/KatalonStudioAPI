@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Limit of characters for community Name ,Code and description</description>
+   <name>TC_19744Verify Limit of characters for community Name ,Code and description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa8486bc-4260-4231-86b1-ee52cadf466d</testCaseGuid>
+</TestCaseEntity>

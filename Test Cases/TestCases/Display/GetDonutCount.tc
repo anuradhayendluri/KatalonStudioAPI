@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This gets the counts of various items for displaying on the dashboard.</description>
+   <name>GetDonutCount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd15db80-5215-42b2-9567-ffc05355d77a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_URL</defaultValue>
+      <description></description>
+      <id>cd49e8bc-552f-4fb0-b126-9be940c53865</id>
+      <masked>false</masked>
+      <name>Siteurl</name>
+   </variable>
+</TestCaseEntity>

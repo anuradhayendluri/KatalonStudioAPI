@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Configuring with Ad Hoc Community neither of selecting Enable Discussion Board Enable Blog Posts and Allow File Uploads options</description>
+   <name>TC_19792Verify Community neither of selecting Enable Discussion Board Enable Blog Posts and Allow File Uploads options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d60922e-55a5-410e-a7e2-4245ddf45fd2</testCaseGuid>
+</TestCaseEntity>

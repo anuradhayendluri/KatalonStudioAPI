@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Activity Details</name>
+   <tag></tag>
+   <comment>Activity ID is = &quot; + ID</comment>
+   <testCaseGuid>303eda97-dc1f-463e-a073-d9ffbc3ee06c</testCaseGuid>
+</TestCaseEntity>

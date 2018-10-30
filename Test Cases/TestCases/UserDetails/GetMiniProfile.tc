@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>getting user profile</description>
+   <name>GetMiniProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc11ec27-1a10-4c48-bbf2-94e85a1a7e2a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_URL</defaultValue>
+      <description></description>
+      <id>6d0ee1ba-d22b-4d18-96f7-d910500263c0</id>
+      <masked>false</masked>
+      <name>siteURL</name>
+   </variable>
+</TestCaseEntity>

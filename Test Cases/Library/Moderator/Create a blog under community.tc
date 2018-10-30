@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create blog under community</description>
+   <name>Create a blog under community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5fcd624f-ec7e-4123-be67-6a5f9ec09962</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5378a82-22da-4cbf-8c57-bf18e6c0f63f</id>
+      <masked>false</masked>
+      <name>blogName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc149f9c-dea1-48ba-b50d-e2f39999a75e</id>
+      <masked>false</masked>
+      <name>blogDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5b9f30e-3ea7-4008-80a4-d5f8aa80df73</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

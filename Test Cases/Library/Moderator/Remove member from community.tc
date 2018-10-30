@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove memeber from community</description>
+   <name>Remove member from community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be61bcf7-0c0f-472c-9eb2-c17c0e6cac90</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba1299c0-b10c-48d4-8d69-849ca161356d</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21c715b3-14f0-40be-9b2c-157988549c5a</id>
+      <masked>false</masked>
+      <name>userid</name>
+   </variable>
+</TestCaseEntity>

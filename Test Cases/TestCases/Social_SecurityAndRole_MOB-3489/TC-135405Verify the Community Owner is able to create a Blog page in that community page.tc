@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the Community Owner is able to create a Blog page in that community page</description>
+   <name>TC-135405Verify the Community Owner is able to create a Blog page in that community page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f545fd83-5c2f-48a5-8dfa-8a0cf484faf7</testCaseGuid>
+</TestCaseEntity>

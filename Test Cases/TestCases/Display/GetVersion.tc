@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Getting the version of application</description>
+   <name>GetVersion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1012eff5-a28e-4073-a927-32a2d09e0012</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_version</defaultValue>
+      <description></description>
+      <id>cd12306b-a037-4078-8433-30e47fbea923</id>
+      <masked>false</masked>
+      <name>Version</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.g_URL</defaultValue>
+      <description></description>
+      <id>9d6925b6-08df-448d-ae1e-208727d0a291</id>
+      <masked>false</masked>
+      <name>siteURL</name>
+   </variable>
+</TestCaseEntity>

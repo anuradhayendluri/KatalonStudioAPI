@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Work flow of the Ad Hoc Community when neither of  Private Hidden and Disable Join Requests options are selected</description>
+   <name>TC_19769Verify Work flow  Community when neither of Private Hidden and Disable Join Requests options are selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a368219-e484-4574-93cb-91dff6ee4910</testCaseGuid>
+</TestCaseEntity>

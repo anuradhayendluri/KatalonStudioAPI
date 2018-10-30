@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Display of Community Content when  Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads</description>
+   <name>TC_19786Verify Display of Community configured with Enable Discussion Boards and Allow File Uploads</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08cb963d-c69e-4f54-88c1-12ad69545ca3</testCaseGuid>
+</TestCaseEntity>

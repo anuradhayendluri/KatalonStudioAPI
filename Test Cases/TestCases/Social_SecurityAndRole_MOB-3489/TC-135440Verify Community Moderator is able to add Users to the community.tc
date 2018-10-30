@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Community Moderator is able to add Users to the community</description>
+   <name>TC-135440Verify Community Moderator is able to add Users to the community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b48bb2f5-b752-4cf5-aa55-54abffd4d2e7</testCaseGuid>
+</TestCaseEntity>

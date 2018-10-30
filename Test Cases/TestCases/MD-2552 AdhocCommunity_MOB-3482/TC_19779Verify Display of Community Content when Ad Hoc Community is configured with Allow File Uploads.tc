@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Display of Community Content when  Ad Hoc Community is configured with Allow File Uploads</description>
+   <name>TC_19779Verify Display of Community Content when Ad Hoc Community is configured with Allow File Uploads</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a12d154-0d8f-420a-95ca-808ac6a63c62</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get community response</description>
+   <name>Get community response</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10c0c8ca-860a-42d5-8b6a-32d34e541ae4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43cb06a9-f7e8-46b1-9d8f-6c181f269060</id>
+      <masked>false</masked>
+      <name>communityName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dccfe2da-d5d3-46f2-a622-4d98792ce861</id>
+      <masked>false</masked>
+      <name>CommunityDesc</name>
+   </variable>
+</TestCaseEntity>

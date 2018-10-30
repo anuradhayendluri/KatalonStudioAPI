@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Gets items to display in the tasks page/ timeline.</description>
+   <name>GetTimeLineData</name>
+   <tag></tag>
+   <comment>response text is &quot; + getResponse.getResponseText()</comment>
+   <testCaseGuid>a34d616e-682a-4d54-9209-3abc3e2cf362</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_URL</defaultValue>
+      <description></description>
+      <id>e54aa9a7-eeff-4c95-af10-b29d0f1e0a4c</id>
+      <masked>false</masked>
+      <name>siteURL</name>
+   </variable>
+</TestCaseEntity>

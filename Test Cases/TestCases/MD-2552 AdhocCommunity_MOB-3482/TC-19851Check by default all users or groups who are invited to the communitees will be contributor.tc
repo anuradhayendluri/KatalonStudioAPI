@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check by default all users or groups who are invited to the communitees will be contributor</description>
+   <name>TC-19851Check by default all users or groups who are invited to the communitees will be contributor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07237e00-4499-4be1-bba8-881d39638c26</testCaseGuid>
+</TestCaseEntity>

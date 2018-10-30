@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create community</description>
+   <name>CreateCommunity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57e017b1-d9e7-4167-8838-1c963fb77d04</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>418f55c6-982f-431c-8790-f72e813be103</id>
+      <masked>false</masked>
+      <name>communityName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>60b266ca-d27d-4262-a87c-a543c3c19b15</id>
+      <masked>false</masked>
+      <name>CommunityDesc</name>
+   </variable>
+</TestCaseEntity>

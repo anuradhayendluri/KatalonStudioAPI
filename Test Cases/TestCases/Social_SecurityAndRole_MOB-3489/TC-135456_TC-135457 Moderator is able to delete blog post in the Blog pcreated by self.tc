@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Community Moderator is able to delete blog post in the Blog page which is created by self</description>
+   <name>TC-135456_TC-135457 Moderator is able to delete blog post in the Blog pcreated by self</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71beeda0-918f-4780-9718-3831f53c4091</testCaseGuid>
+</TestCaseEntity>

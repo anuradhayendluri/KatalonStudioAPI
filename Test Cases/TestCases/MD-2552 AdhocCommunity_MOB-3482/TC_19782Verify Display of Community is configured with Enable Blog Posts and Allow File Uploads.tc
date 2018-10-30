@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Display of Community Content when  Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads</description>
+   <name>TC_19782Verify Display of Community is configured with Enable Blog Posts and Allow File Uploads</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be047904-b92e-47eb-8d8c-b1cbf98ec769</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify by default Creator of Ad Hoc Community is the Owner</description>
+   <name>TC19750Verify by default Creator of Ad Hoc Community is the Owner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90a3f50e-bd46-4a96-aa64-ee3ec26fb98a</testCaseGuid>
+</TestCaseEntity>

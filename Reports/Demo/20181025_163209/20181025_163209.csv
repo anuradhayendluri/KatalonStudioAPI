@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 69.0.3497.100,,2018-10-25 16:32:13,2018-10-25 16:32:45,31.740s,FAILED
+,,,,,,
+Test Cases/Common/EsbToken,Chrome 69.0.3497.100,,2018-10-25 16:32:13,2018-10-25 16:32:42,28.944s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-25 16:32:14,2018-10-25 16:32:24,10.155s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-25 16:32:24,2018-10-25 16:32:30,5.772s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-25 16:32:30,2018-10-25 16:32:31,1.310s,PASSED
+delay,Chrome 69.0.3497.100,,2018-10-25 16:32:31,2018-10-25 16:32:36,5.003s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-25 16:32:36,2018-10-25 16:32:36,0.330s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-25 16:32:36,2018-10-25 16:32:37,0.283s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-25 16:32:37,2018-10-25 16:32:40,2.866s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-25 16:32:40,2018-10-25 16:32:40,0.356s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-25 16:32:40,2018-10-25 16:32:41,0.567s,PASSED
+"Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(""return document.documentElement.innerHTML;"", null)",Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.281s,PASSED
+Statement - g_esb = CustomKeywords.validations.Assertions.GetToken(s),Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.307s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.022s,PASSED
+"Statement - stokenindex = s.lastIndexOf(""search:{"") + ""search:{"".length() + 1",Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.009s,PASSED
+"Statement - etokenindex = s.lastIndexOf(""social:{"") + ""social:{"".length() + 1",Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.002s,PASSED
+"Statement - searchToken = s.substring(stokenindex, etokenindex)",Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.003s,PASSED
+Statement - g_lmesbtoken = CustomKeywords.validations.Assertions.GetToken(searchToken),Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.004s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.034s,PASSED
+Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(internal.GlobalVariable.g_esb)),Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.020s,PASSED
+"Statement - decoded = decoded.substring(decoded.indexOf(""}{"") + 1)",Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.010s,PASSED
+Statement - jsonSlurper = new groovy.json.JsonSlurper(),Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.031s,PASSED
+Statement - object = jsonSlurper.parseText(decoded.toString()),Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.137s,PASSED
+Statement - userId = personid,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.026s,PASSED
+Statement - userName = sub,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.002s,PASSED
+Statement - g_UserID = userId,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:41,0.016s,PASSED
+Statement - g_userName = userName,Chrome 69.0.3497.100,,2018-10-25 16:32:41,2018-10-25 16:32:42,0.039s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-25 16:32:42,2018-10-25 16:32:42,0.004s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-25 16:32:42,2018-10-25 16:32:42,0.006s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-25 16:32:42,2018-10-25 16:32:42,0.678s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/Get all Communities,Chrome 69.0.3497.100,,2018-10-25 16:32:42,2018-10-25 16:32:44,2.008s,PASSED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Get All Communities),Chrome 69.0.3497.100,,2018-10-25 16:32:43,2018-10-25 16:32:43,0.035s,PASSED
+Statement - request.setHttpHeaderProperties(CustomKeywords.requestHeaders.Headers.AddHeaders()),Chrome 69.0.3497.100,,2018-10-25 16:32:43,2018-10-25 16:32:43,0.030s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),Chrome 69.0.3497.100,,2018-10-25 16:32:43,2018-10-25 16:32:44,1.637s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-25 16:32:44,2018-10-25 16:32:44,0.013s,PASSED
+,,,,,,
+Test Cases/TestCases/Demo/Create Comm,Chrome 69.0.3497.100,,2018-10-25 16:32:44,2018-10-25 16:32:45,0.333s,FAILED
+Statement - req = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Create Comm),Chrome 69.0.3497.100,,2018-10-25 16:32:44,2018-10-25 16:32:44,0.008s,PASSED
+Statement - req.setHttpHeaderProperties(CustomKeywords.requestHeaders.Headers.AddHeaders()),Chrome 69.0.3497.100,,2018-10-25 16:32:44,2018-10-25 16:32:44,0.003s,PASSED
+Statement - res = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(req),Chrome 69.0.3497.100,,2018-10-25 16:32:44,2018-10-25 16:32:45,0.068s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-25 16:32:45,2018-10-25 16:32:45,0.008s,FAILED

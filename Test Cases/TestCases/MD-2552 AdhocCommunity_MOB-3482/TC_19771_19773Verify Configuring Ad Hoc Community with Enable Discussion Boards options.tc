@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Configuring Ad Hoc Community with Enable Discussion Boards options</description>
+   <name>TC_19771_19773Verify Configuring Ad Hoc Community with Enable Discussion Boards options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bac0e059-8e96-454a-a87b-26c1c2a8830d</testCaseGuid>
+</TestCaseEntity>

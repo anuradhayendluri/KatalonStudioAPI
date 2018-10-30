@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Display of Community Content when  Ad Hoc Community is configured with Enable Discussion Boards and  Enable Blog Posts</description>
+   <name>TC_19780Verify Display of Community  configured with Enable Discussion Boards and Enable Blog Posts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a46b46e-6ada-42f1-9102-7bb1d9a16d49</testCaseGuid>
+</TestCaseEntity>

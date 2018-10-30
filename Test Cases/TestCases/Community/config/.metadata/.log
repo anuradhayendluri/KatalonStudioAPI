@@ -1,0 +1,82 @@
+katalon.versionNumber=5.4.2
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+!SESSION 2018-07-06 17:18:56.431 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\CreateCommunity.tc
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\CreateCommunity.tc
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-06 17:19:04.676
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aayendluri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+Fri Jul 06 17:19:06 IST 2018
+{"traits":{"host_name":"AnuradhaYend1IN","os":"win32","os_type":"64","kat_version":"5.4.2 build 1","kat_type":"64","sessionId":"3f506c5e-65a7-40e3-a69a-4cdacdf2f79b","user_key":"DCB102D973FE00816966C4F1CD1598F2","project":0,"test_case":29,"test_run":788,"new_project":0,"new_test_case":0,"new_test_run":0,"new_test_case_created":0,"new_project_created":0,"triggeredBy":"openApplication","runningMode":"gui"},"userId":"anuradha.yendluri@gmail.com"}
+
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-07-06 17:19:53.259
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:522)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:150)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:72)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:124)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\KatalonAPI\KatalonAPITesting overlaps the workspace location: D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-07-06 17:19:53.261
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-07-06 17:19:53.261
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-07-06 17:19:53.261
+!MESSAGE D:\KatalonAPI\KatalonAPITesting overlaps the workspace location: D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\config
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-07-06 17:20:53.104
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:522)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:150)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:72)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:124)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\KatalonAPI\KatalonAPITesting overlaps the workspace location: D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-07-06 17:20:53.104
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-07-06 17:20:53.104
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-07-06 17:20:53.104
+!MESSAGE D:\KatalonAPI\KatalonAPITesting overlaps the workspace location: D:\KatalonAPI\KatalonAPITesting\Test Cases\TestCases\Community\config

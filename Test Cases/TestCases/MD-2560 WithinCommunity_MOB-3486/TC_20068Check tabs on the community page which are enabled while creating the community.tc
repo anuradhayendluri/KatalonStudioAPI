@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check tabs on the community page which are enabled while creating the community</description>
+   <name>TC_20068Check tabs on the community page which are enabled while creating the community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6f35c20-415f-49d8-a12c-31ff4863e1d8</testCaseGuid>
+</TestCaseEntity>

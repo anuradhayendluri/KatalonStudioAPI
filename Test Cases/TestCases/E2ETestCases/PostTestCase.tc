@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PostTestCase</name>
+   <tag></tag>
+   <comment>community Count is &quot; + beforeCommunityCreationCount
+Community ID &quot; + communityId
+community Count is &quot; + afterCommunityCreationCount</comment>
+   <testCaseGuid>2d49af19-e3c4-4abf-bb55-cf5a93f778af</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_CommunityID</defaultValue>
+      <description></description>
+      <id>c7a32eea-c981-469d-949c-5bd58e5e48a8</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

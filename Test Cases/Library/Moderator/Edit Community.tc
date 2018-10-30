@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit community</description>
+   <name>Edit Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e219d5f3-069a-4fb0-8ead-8dc2892af903</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71ad355e-8ae5-4d6e-b469-a2687f49c9de</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48eba911-b738-4f78-9d86-6f349d24ac5e</id>
+      <masked>false</masked>
+      <name>communityName</name>
+   </variable>
+</TestCaseEntity>

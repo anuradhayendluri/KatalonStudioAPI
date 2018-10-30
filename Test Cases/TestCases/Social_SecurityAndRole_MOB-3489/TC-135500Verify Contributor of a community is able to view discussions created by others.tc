@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Contributor of a community is able to view discussions created by others</description>
+   <name>TC-135500Verify Contributor of a community is able to view discussions created by others</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af5dc464-7628-46bd-b335-491036974f64</testCaseGuid>
+</TestCaseEntity>

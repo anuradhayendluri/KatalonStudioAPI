@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit or Update Community</description>
+   <name>Edit Community</name>
+   <tag></tag>
+   <comment>Community ID &quot; + communityDatalist[0]</comment>
+   <testCaseGuid>ffadf9a7-8523-4af7-8fb2-81d9bb089336</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67827b84-095f-40ad-a1e6-e576681f4ecd</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+</TestCaseEntity>

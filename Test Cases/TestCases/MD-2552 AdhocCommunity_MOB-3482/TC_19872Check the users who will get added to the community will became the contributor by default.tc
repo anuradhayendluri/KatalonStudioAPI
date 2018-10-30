@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check the users who will get added to the community will became the contributor by default</description>
+   <name>TC_19872Check the users who will get added to the community will became the contributor by default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea18b03b-d41f-497d-85a8-9215b9df1c9a</testCaseGuid>
+</TestCaseEntity>

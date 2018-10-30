@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Community Test Case</description>
+   <name>CreateCommunityold</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0ab3e4a-60cd-4f2c-9af1-5514525a5fa0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.g_CommunityName</defaultValue>
+      <description></description>
+      <id>34297648-1861-499a-a881-43f2e731f0a1</id>
+      <masked>false</masked>
+      <name>communityName</name>
+   </variable>
+</TestCaseEntity>

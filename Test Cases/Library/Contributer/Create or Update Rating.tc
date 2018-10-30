@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create or Update Rating</description>
+   <name>Create or Update Rating</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00d0a4bf-d7d5-4478-a0b7-461212987ef9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c6500e1-16a5-4b21-941a-80c1c5225c18</id>
+      <masked>false</masked>
+      <name>rating</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.g_UserID</defaultValue>
+      <description></description>
+      <id>12b9168e-de13-4cea-9bff-ebeefa8f7037</id>
+      <masked>false</masked>
+      <name>userID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8cb0f9c0-ccfa-40ca-b4bd-809d0d5151bd</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Deleting Ad Hoc Community when logged in as user</description>
+   <name>TC-19866Verify Deleting Ad Hoc Community when logged in as user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4269ace7-7504-473e-a150-644f759511e3</testCaseGuid>
+</TestCaseEntity>

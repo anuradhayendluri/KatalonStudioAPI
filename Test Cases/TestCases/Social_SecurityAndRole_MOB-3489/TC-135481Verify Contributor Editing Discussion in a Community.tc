@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Contributor Editing Discussion in a Community</description>
+   <name>TC-135481Verify Contributor Editing Discussion in a Community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cac1525d-d635-4d3a-865e-a05ff3d1d1ba</testCaseGuid>
+</TestCaseEntity>

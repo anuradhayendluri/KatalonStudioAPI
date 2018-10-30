@@ -1,0 +1,50 @@
+Flag,TestName,CommunityName,CommunityDesc,LMUser,DiscussionName,DiscussionDesc,Comment,BlogName,BlogDesc,Contributer,Moderator
+,TC-19862Check user will able to rate the community for public community,Community092330,Desc155,,,,,,,Contributer,Moderator
+,TC19750Verify by default Creator of Ad Hoc Community is the Owner,Community092331,Desc156,,,,,,,Contributer,Moderator
+,"TC_19744Verify Limit of characters for community Name ,Code and description",Community00989 name should not exceed more than hundred characteristics while creating community. Description is a mandatory field145,Desc157,,,,,,,Contributer,Moderator
+,TC_19749Verify Community Name and Description are Mandatory Fields,Community092333,Desc158,,,,,,,Contributer,Moderator
+,TC_19769Verify Work flow of the Ad Hoc Community when neither of Private Hidden and Disable Join Requests options are selected,Community092334,Desc159,,,,,,,Contributer,Moderator
+,TC_19771Verify Configuring Ad Hoc Community with Enable Discussion Boards options,Community092335,Desc160,,,,,,,Contributer,Moderator
+,TC_19774Verify Display of Community Content when Ad Hoc Community is configured with Enable Blog Posts,Community092336,Desc161,,,,,,,Contributer,Moderator
+,TC_19775Verify Configuring Ad Hoc Community with Enable Blog Posts options,Community092337,Desc162,,,,,,,Contributer,Moderator
+,TC_19779Verify Display of Community Content when Ad Hoc Community is configured with Allow File Uploads,Community092338,Desc163,,,,,,,Contributer,Moderator
+,TC_19780Verify Display of Community Content when Ad Hoc Community is configured with Enable Discussion Boards and Enable Blog Posts,Community092339,Desc164,,,,,,,Contributer,Moderator
+,TC_19782Verify Display of Community Content when Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads,Community092340,Desc165,,,,,,,Contributer,Moderator
+,TC_19784Verify Work flow when the Ad Hoc Community is configured with Enable Discussion Boards and Enable Blog Posts,Community092341,Desc166,,,,,,,Contributer,Moderator
+,TC_19786Verify Display of Community Content when Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads,Community092342,Desc167,,,,,,,Contributer,Moderator
+,TC_19787Verify Work flow when the Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads,Community092343,Desc168,,,,,,,Contributer,Moderator
+,TC_19789Verify Work flow when the Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads,Community092344,Desc169,,,,,,,Contributer,Moderator
+,TC_19790Verify Display of Community Content when Ad Hoc Community is configured with Enable Discussion Boards Enable Blog Posts and Allow File Uploads,Community092345,Desc170,,,,,,,Contributer,Moderator
+,TC_19792Verify Configuring with Ad Hoc Community neither of selecting Enable Discussion Board Enable Blog Posts and Allow File Uploads options,Community092346,Desc171,,,,,,,Contributer,Moderator
+,TC_19872Check the users who will get added to the community will became the contributor by default,Community092347,Desc172,usercontrating3,,,,,,Contributer,Moderator
+,TC20067Check user can see the community name of the community,Community092348,Desc173,,,,,,,Contributer,Moderator
+,TC_20061Check Rating provided on Community Page,Community092349,Desc174,,,,,,,Contributer,Moderator
+,TC_20066Check user can see the description and owner of the community,Community092350,Desc175,,,,,,,Contributer,Moderator
+,TC_20068Check tabs on the community page which are enabled while creating the community,Community092351,Desc176,,,,,,,Contributer,Moderator
+,TC-19862Check user will able to rate the community for public community,Community092352,Desc177,usercontrating3,,,,,,Contributer,Moderator
+,TC-19866Verify Deleting Ad Hoc Community when logged in as user,Community092353,Desc178,usercontrating3,,,,,,Contributer,Moderator
+,TC-19861Check user will not able to rate the community if rating is private,Community092354,Desc179,usercontrating3,,,,,,Contributer,Moderator
+,TC-19858Check Remove from Community option will remove the user,Community092355,Desc180,usercontrating3,,,,,,Contributer,Moderator
+,TC-19851Check by default all users or groups who are invited to the communitees will be contributor,Community092356,Desc181,usercontrating3,,,,,,Contributer,Moderator
+,TC-19847Check owner can delete the community,Community092357,Desc182,usercontrating3,,,,,,Contributer,Moderator
+,TC-135480Verify Contributor creating Discussion in a Community,Community092358,Desc183,usercontrating3,,,,,,Contributer,Moderator
+,TC-135480Verify Contributor creating Discussion in a Community,Community092359,Desc184,usercontrating3,Discussion09332,DiscussionDesc155,post094490,Blog0944128,BlogDesc155,Contributer,Moderator
+,"TC-135399Verify the Community Owner is able to edit the discussion thread, created by self",Community092360,Desc185,usercontrating3,Discussion09333,DiscussionDesc156,post094491,Blog0944129,BlogDesc156,Contributer,Moderator
+,TC135405Verify the Community Owner is able to create a Blog page in that community page,Community092361,Desc186,usercontrating3,Discussion09334,DiscussionDesc157,post094492,Blog0944130,BlogDesc157,Contributer,Moderator
+,TC-135428Verify the community owner can change his role himself in the community page,Community092362,Desc187,usercontrating3,Discussion09335,DiscussionDesc158,post094493,Blog0944131,BlogDesc158,Contributer,Moderator
+,TC-135438Verify Community Moderator is able to remove the members from the community,Community092363,Desc188,usercontrating3,Discussion09336,DiscussionDesc159,post094494,Blog0944132,BlogDesc159,Contributer,Moderator
+,TC-135439Verify Community Moderator is able to modify the roles of the members of the community,Community092364,Desc189,usercontrating3,Discussion09337,DiscussionDesc160,post094495,Blog0944133,BlogDesc160,Contributer,Moderator
+,TC-135440Verify Community Moderator is able to add Users to the community,Community092365,Desc190,usercontrating3,Discussion09338,DiscussionDesc161,post094496,Blog0944134,BlogDesc161,Contributer,Moderator
+,TC-135407Verify the Owner of the community page is able to add a blog post in the blog page,Community092366,Desc191,usercontrating3,Discussion09339,DiscussionDesc162,post094497,Blog0944135,BlogDesc162,Contributer,Moderator
+,TC-135441Verify Community Moderator is able to create a discussion thread,Community092367,Desc192,usercontrating3,Discussion09340,DiscussionDesc163,post094498,Blog0944136,BlogDesc163,Contributer,Moderator
+,TC-135463Verify Community Moderator is able to provide rating to the community,Community092368,Desc193,usercontrating3,Discussion09341,DiscussionDesc164,post094499,Blog0944137,BlogDesc164,Contributer,Moderator
+,TC-135477Verify non member of a public community can provide rating to the community,Community092369,Desc194,usercontrating3,Discussion09342,DiscussionDesc165,post094500,Blog0944138,BlogDesc165,Contributer,Moderator
+,TC-135509Verify Non Member can View the star rating but cannot edit it for private community,Community092370,Desc195,usercontrating3,Discussion09343,DiscussionDesc166,post094501,Blog0944139,BlogDesc166,Contributer,Moderator
+,TC-135505Verify Contributor of a community is able to provide rating to the community,Community092371,Desc196,usercontrating3,Discussion09344,DiscussionDesc167,post094502,Blog0944140,BlogDesc167,Contributer,Moderator
+,TC-135500Verify Contributor of a community is able to view discussions created by others,Community092372,Desc197,usercontrating3,Discussion09345,DiscussionDesc168,post094503,Blog0944141,BlogDesc168,Contributer,Moderator
+,TC-20097Verify owner can invite more than one user for community,Community092373,Desc198,usercontrating3,Discussion09346,DiscussionDesc169,post094504,Blog0944142,BlogDesc169,Contributer,Moderator
+,TC-135463Verify Community Moderator is able to provide rating to the community,Community092374,Desc199,usercontrating3,Discussion09347,DiscussionDesc170,post094505,Blog0944143,BlogDesc170,Contributer,Moderator
+,TC-135483Verify Contributor replying to Discussion in a Community,Community092375,Desc200,usercontrating3,Discussion09348,DiscussionDesc171,post094506,Blog0944144,BlogDesc171,Contributer,Moderator
+,TC-19846Check admin can add or remove user at any point of time,Community092376,Desc201,usercontrating3,Discussion09349,DiscussionDesc172,post094507,Blog0944145,BlogDesc172,Contributer,Moderator
+,TC-135456_TC-135457 Moderator is able to delete blog post in the Blog pcreated by self,Community092377,Desc202,usercontrating3,Discussion09350,DiscussionDesc173,post094508,Blog0944146,BlogDesc173,Contributer,Moderator
+,TC-135482Verify Contributor Deleting own Discussion in a Community,Community092378,Desc203,usercontrating3,Discussion09351,DiscussionDesc174,post094509,Blog0944147,BlogDesc174,Contributer,Moderator

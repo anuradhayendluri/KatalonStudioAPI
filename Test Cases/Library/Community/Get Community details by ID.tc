@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Community details by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8737aac3-8d54-4a44-a04e-27127a459d6d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fed96456-e6c1-4c86-a25a-b58e95f7f4f4</id>
+      <masked>false</masked>
+      <name>communityID</name>
+   </variable>
+</TestCaseEntity>

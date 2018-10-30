@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Community Moderator is able to create a discussion thread</description>
+   <name>TC-135441Verify Community Moderator is able to create a discussion thread</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8f92408-374c-41a2-98c8-b6bb20ae4266</testCaseGuid>
+</TestCaseEntity>

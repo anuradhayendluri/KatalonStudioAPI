@@ -1,0 +1,676 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+All,Chrome 69.0.3497.100,,2018-10-29 15:08:15,2018-10-29 15:14:27,6m - 11.462s,FAILED
+,,,,,,
+Test Cases/Common/ContributerEsbToken,Chrome 69.0.3497.100,Esb token for login with different users,2018-10-29 15:08:16,2018-10-29 15:08:45,29.279s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:08:16,2018-10-29 15:08:27,10.135s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-29 15:08:27,2018-10-29 15:08:33,6.647s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-29 15:08:33,2018-10-29 15:08:34,0.760s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:08:34,2018-10-29 15:08:34,0.291s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:08:34,2018-10-29 15:08:34,0.161s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-29 15:08:34,2018-10-29 15:08:36,1.599s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-29 15:08:36,2018-10-29 15:08:36,0.380s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-29 15:08:36,2018-10-29 15:08:37,0.633s,PASSED
+"Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(""return document.documentElement.innerHTML;"", null)",Chrome 69.0.3497.100,,2018-10-29 15:08:37,2018-10-29 15:08:37,0.413s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:37,2018-10-29 15:08:38,0.854s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:38,2018-10-29 15:08:38,0.005s,PASSED
+"Statement - startString = s.lastIndexOf(""esbApiToken"") + ""esbApiToken"".length() + 1",Chrome 69.0.3497.100,,2018-10-29 15:08:38,2018-10-29 15:08:38,0.011s,PASSED
+Statement - substring = s.substring(startString),Chrome 69.0.3497.100,,2018-10-29 15:08:38,2018-10-29 15:08:38,0.008s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:38,2018-10-29 15:08:44,5.504s,PASSED
+"Statement - lenght = substring.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.002s,PASSED
+"Statement - esb = substring.substring(0, lenght)",Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.003s,PASSED
+"Statement - esbapitoken = esb.subSequence(2, esb.length() - 1)",Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.004s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.002s,PASSED
+Statement - ContributerToken = esbapitoken,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.001s,PASSED
+Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(esbapitoken)),Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.013s,PASSED
+"Statement - decoded = decoded.substring(decoded.indexOf(""}{"") + 1)",Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.003s,PASSED
+Statement - jsonSlurper = new groovy.json.JsonSlurper(),Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.006s,PASSED
+Statement - object = jsonSlurper.parseText(decoded.toString()),Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.014s,PASSED
+Statement - userId = personid,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.006s,PASSED
+Statement - userName = sub,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.001s,PASSED
+Statement - ContributerID = userId,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.001s,PASSED
+Statement - ContributerUser = userName,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.001s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:44,0.372s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-29 15:08:44,2018-10-29 15:08:45,0.646s,PASSED
+,,,,,,
+Test Cases/Common/ModeratorEsbToken,Chrome 69.0.3497.100,Esb token for login with different users,2018-10-29 15:08:45,2018-10-29 15:09:20,34.736s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:08:45,2018-10-29 15:08:55,10.008s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-29 15:08:55,2018-10-29 15:09:01,5.369s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-29 15:09:01,2018-10-29 15:09:01,0.704s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:09:01,2018-10-29 15:09:02,0.191s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:09:02,2018-10-29 15:09:02,0.154s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-29 15:09:02,2018-10-29 15:09:03,1.550s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-29 15:09:03,2018-10-29 15:09:04,0.279s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-29 15:09:04,2018-10-29 15:09:06,2.113s,PASSED
+"Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(""return document.documentElement.innerHTML;"", null)",Chrome 69.0.3497.100,,2018-10-29 15:09:06,2018-10-29 15:09:06,0.304s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:06,2018-10-29 15:09:07,1.278s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:07,2018-10-29 15:09:07,0.007s,PASSED
+"Statement - startString = s.lastIndexOf(""esbApiToken"") + ""esbApiToken"".length() + 1",Chrome 69.0.3497.100,,2018-10-29 15:09:07,2018-10-29 15:09:07,0.002s,PASSED
+Statement - substring = s.substring(startString),Chrome 69.0.3497.100,,2018-10-29 15:09:07,2018-10-29 15:09:07,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:07,2018-10-29 15:09:18,11.184s,PASSED
+"Statement - lenght = substring.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+"Statement - esb = substring.substring(0, lenght)",Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+"Statement - esbapitoken = esb.subSequence(2, esb.length() - 1)",Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+Statement - g_ModeratorToken = esbapitoken,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(esbapitoken)),Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+"Statement - decoded = decoded.substring(decoded.indexOf(""}{"") + 1)",Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+Statement - jsonSlurper = new groovy.json.JsonSlurper(),Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+Statement - object = jsonSlurper.parseText(decoded.toString()),Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+Statement - userId = personid,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+Statement - userName = sub,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.000s,PASSED
+Statement - g_NameTemp = userId,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.001s,PASSED
+Statement - g_PassTemp = userName,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.002s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:18,0.003s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-29 15:09:18,2018-10-29 15:09:19,0.621s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-29 15:09:19,2018-10-29 15:09:20,0.642s,PASSED
+,,,,,,
+Test Cases/Common/EsbToken,Chrome 69.0.3497.100,,2018-10-29 15:09:20,2018-10-29 15:09:47,27.309s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:09:20,2018-10-29 15:09:30,10.010s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-29 15:09:30,2018-10-29 15:09:36,5.702s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-29 15:09:36,2018-10-29 15:09:37,1.135s,PASSED
+delay,Chrome 69.0.3497.100,,2018-10-29 15:09:37,2018-10-29 15:09:42,5.003s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:09:42,2018-10-29 15:09:42,0.202s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-29 15:09:42,2018-10-29 15:09:43,0.255s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-29 15:09:43,2018-10-29 15:09:45,1.989s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-29 15:09:45,2018-10-29 15:09:45,0.323s,PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-29 15:09:45,2018-10-29 15:09:46,0.864s,PASSED
+"Statement - s = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.executeJavaScript(""return document.documentElement.innerHTML;"", null)",Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.430s,PASSED
+Statement - g_esb = CustomKeywords.validations.Assertions.GetToken(s),Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.168s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.002s,PASSED
+"Statement - stokenindex = s.lastIndexOf(""search:{"") + ""search:{"".length() + 1",Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.005s,PASSED
+"Statement - etokenindex = s.lastIndexOf(""social:{"") + ""social:{"".length() + 1",Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+"Statement - searchToken = s.substring(stokenindex, etokenindex)",Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - g_lmesbtoken = CustomKeywords.validations.Assertions.GetToken(searchToken),Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.005s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - decoded = new java.lang.String(javax.xml.bind.DatatypeConverter.parseBase64Binary(internal.GlobalVariable.g_esb)),Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+"Statement - decoded = decoded.substring(decoded.indexOf(""}{"") + 1)",Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - jsonSlurper = new groovy.json.JsonSlurper(),Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - object = jsonSlurper.parseText(decoded.toString()),Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - userId = personid,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+Statement - userName = sub,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.000s,PASSED
+Statement - g_UserID = userId,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.000s,PASSED
+Statement - g_userName = userName,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:46,0.001s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-29 15:09:46,2018-10-29 15:09:47,0.582s,PASSED
+,,,,,,
+Test Cases/Library/SetUp/Community,Chrome 69.0.3497.100,,2018-10-29 15:09:47,2018-10-29 15:09:48,1.321s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:09:47,2018-10-29 15:09:47,0.015s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 47), ""CommunityDesc"":data.getValue(""CommunityDesc"", 47), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:09:47,2018-10-29 15:09:48,0.973s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:09:48,2018-10-29 15:09:48,0.012s,PASSED
+Statement - CommunityID = CommunityID,Chrome 69.0.3497.100,,2018-10-29 15:09:48,2018-10-29 15:09:48,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19846Check admin can add or remove user at any point of time,Chrome 69.0.3497.100,Check admin can add or remove user at any point of time,2018-10-29 15:09:48,2018-10-29 15:10:16,27.796s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:09:49,2018-10-29 15:09:49,0.008s,PASSED
+"Statement - personpk = data.getValue(""Contributer"", 47)",Chrome 69.0.3497.100,,2018-10-29 15:09:49,2018-10-29 15:09:49,0.006s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:09:49,2018-10-29 15:09:49,0.002s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:09:49,2018-10-29 15:09:49,0.001s,PASSED
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + pk)",Chrome 69.0.3497.100,,2018-10-29 15:09:49,2018-10-29 15:10:05,16.295s,PASSED
+Statement - While (recordset.next()),Chrome 69.0.3497.100,,2018-10-29 15:10:05,2018-10-29 15:10:05,0.027s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:10:05,2018-10-29 15:10:15,10.011s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:10:15,2018-10-29 15:10:16,0.813s,PASSED
+"Statement - res5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Remove member from community), [""communityID"":CommunityID, ""userid"":userid], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:10:16,2018-10-29 15:10:16,0.388s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:10:16,2018-10-29 15:10:16,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19847Check owner can delete the community,Chrome 69.0.3497.100,Check owner can delete the community,2018-10-29 15:10:16,2018-10-29 15:10:17,0.917s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:10:16,2018-10-29 15:10:16,0.014s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 28), ""CommunityDesc"":data.getValue(""CommunityDesc"", 28), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:10:16,2018-10-29 15:10:17,0.148s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.002s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Delete Community), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.470s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19858Check Remove from Community option will remove the user,Chrome 69.0.3497.100,Check Remove from Community option will remove the user,2018-10-29 15:10:17,2018-10-29 15:10:43,26.176s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.005s,PASSED
+"Statement - personpk = data.getValue(""Contributer"", 26)",Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.002s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:17,0.001s,PASSED
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + pk)",Chrome 69.0.3497.100,,2018-10-29 15:10:17,2018-10-29 15:10:33,15.505s,PASSED
+Statement - While (recordset.next()),Chrome 69.0.3497.100,,2018-10-29 15:10:33,2018-10-29 15:10:33,0.002s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:10:33,2018-10-29 15:10:43,10.009s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:10:43,2018-10-29 15:10:43,0.168s,PASSED
+"Statement - res5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Remove member from community), [""communityID"":CommunityID, ""userid"":userid], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:10:43,2018-10-29 15:10:43,0.163s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:10:43,2018-10-29 15:10:43,0.003s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19861Check user will not able to rate the community if rating is private,Chrome 69.0.3497.100,Check user will not able to rate the community if rating  is private,2018-10-29 15:10:43,2018-10-29 15:11:10,26.446s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.007s,PASSED
+"Statement - personpk = data.getValue(""LMUser"", 25)",Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.003s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.006s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 25), ""CommunityDesc"":data.getValue(""CommunityDesc"", 25), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.151s,PASSED
+Statement - communityID = id,Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:44,0.003s,PASSED
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + pk)",Chrome 69.0.3497.100,,2018-10-29 15:10:44,2018-10-29 15:10:59,15.545s,PASSED
+Statement - While (recordset.next()),Chrome 69.0.3497.100,,2018-10-29 15:10:59,2018-10-29 15:10:59,0.003s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:10:59,2018-10-29 15:11:09,10.007s,PASSED
+"Statement - res5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create or Update Rating), [""rating"":""3"", ""userID"":userid, ""communityID"":communityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:09,2018-10-29 15:11:10,0.379s,FAILED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19862Check user will able to rate the community for public community,Chrome 69.0.3497.100,Check user will able to rate  the community for public community,2018-10-29 15:11:10,2018-10-29 15:11:36,26.656s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:10,2018-10-29 15:11:10,0.007s,PASSED
+"Statement - personpk = data.getValue(""Contributer"", 23)",Chrome 69.0.3497.100,,2018-10-29 15:11:10,2018-10-29 15:11:10,0.002s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:11:10,2018-10-29 15:11:10,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:11:10,2018-10-29 15:11:10,0.000s,PASSED
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + pk)",Chrome 69.0.3497.100,,2018-10-29 15:11:10,2018-10-29 15:11:26,15.903s,PASSED
+Statement - While (recordset.next()),Chrome 69.0.3497.100,,2018-10-29 15:11:26,2018-10-29 15:11:26,0.002s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:11:26,2018-10-29 15:11:36,10.006s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Create or Update Rating), [""rating"":5, ""userID"":userid, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:36,2018-10-29 15:11:36,0.424s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:36,2018-10-29 15:11:36,0.002s,PASSED
+Statement - s1 = rating,Chrome 69.0.3497.100,,2018-10-29 15:11:36,2018-10-29 15:11:36,0.001s,PASSED
+"Statement - If (s1 == ""5.0"")",Chrome 69.0.3497.100,,2018-10-29 15:11:36,2018-10-29 15:11:36,0.006s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19866Verify Deleting Ad Hoc Community when logged in as user,Chrome 69.0.3497.100,Verify Deleting Ad Hoc Community when logged in as user,2018-10-29 15:11:36,2018-10-29 15:11:37,0.616s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 24), ""CommunityDesc"":data.getValue(""CommunityDesc"", 24), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.163s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.002s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Delete Community), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.203s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC19750Verify by default Creator of Ad Hoc Community is the Owner,Chrome 69.0.3497.100,Verify by default Creator of Ad Hoc Community is the Owner,2018-10-29 15:11:37,2018-10-29 15:11:37,0.425s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.006s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 2), ""CommunityDesc"":data.getValue(""CommunityDesc"", 2), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.189s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.003s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.002s,PASSED
+Statement - jsonObject = new groovy.json.JsonSlurper().parseText(response.getResponseText()),Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.001s,PASSED
+Statement - printf(name),Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.002s,PASSED
+"Statement - assert response.getResponseText().contains(data.getValue(""CommunityName"", 2))",Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:37,2018-10-29 15:11:37,0.036s,PASSED
+,,,,,,
+"Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19744Verify Limit of characters for community Name ,Code and description",Chrome 69.0.3497.100,"Verify Limit of characters for community Name ,Code and description",2018-10-29 15:11:37,2018-10-29 15:11:38,0.417s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.010s,PASSED
+"Statement - comName = ""Community name should not exceed more than hundred characteristics while creating community. Description is a mandatory field""",Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.002s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 3), ""CommunityDesc"":data.getValue(""CommunityDesc"", 3), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.195s,PASSED
+Statement - communityName = name,Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.002s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.002s,PASSED
+Statement - If (communityName.length() > 100),Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.006s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19749Verify Community Name and Description are Mandatory Fields,Chrome 69.0.3497.100,Verify Community Name and Description are Mandatory Fields,2018-10-29 15:11:38,2018-10-29 15:11:38,0.371s,FAILED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":"""", ""CommunityDesc"":"""", ""allowDiscussionBoards"":true, ""allowBlogPosts"":true, ""allowFileUploads"":true, ""communityCode"":"""", ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.183s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.002s,PASSED
+"Statement - If (com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(response, 200))",Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.005s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19769Verify Work flow  Community when neither of Private Hidden and Disable Join Requests options are selected,Chrome 69.0.3497.100,Verify Work flow of the Ad Hoc Community when neither of  Private Hidden and Disable Join Requests options are selected,2018-10-29 15:11:38,2018-10-29 15:11:39,0.411s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:38,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 5), ""CommunityDesc"":data.getValue(""CommunityDesc"", 5), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:38,2018-10-29 15:11:39,0.153s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.022s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.024s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.019s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.020s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19771_19773Verify Configuring Ad Hoc Community with Enable Discussion Boards options,Chrome 69.0.3497.100,Verify Configuring Ad Hoc Community with Enable Discussion Boards options,2018-10-29 15:11:39,2018-10-29 15:11:42,3.355s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:39,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 6), ""CommunityDesc"":data.getValue(""CommunityDesc"", 6), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:39,2018-10-29 15:11:42,3.158s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.012s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19774Verify Display of Community Content when Ad Hoc Community is configured with Enable Blog Posts,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Enable Blog Posts,2018-10-29 15:11:42,2018-10-29 15:11:42,0.373s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 7), ""CommunityDesc"":data.getValue(""CommunityDesc"", 7), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.162s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.002s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.016s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.016s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.012s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:42,2018-10-29 15:11:42,0.014s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19775Verify Configuring Ad Hoc Community with Enable Blog Posts options,Chrome 69.0.3497.100,Verify Configuring Ad Hoc Community with Enable Blog Posts options,2018-10-29 15:11:42,2018-10-29 15:11:43,0.359s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 8), ""CommunityDesc"":data.getValue(""CommunityDesc"", 8), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.171s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.011s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19779Verify Display of Community Content when Ad Hoc Community is configured with Allow File Uploads,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Allow File Uploads,2018-10-29 15:11:43,2018-10-29 15:11:43,0.363s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.006s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 9), ""CommunityDesc"":data.getValue(""CommunityDesc"", 9), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.147s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.014s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.012s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.014s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.017s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19780Verify Display of Community  configured with Enable Discussion Boards and Enable Blog Posts,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Enable Discussion Boards and  Enable Blog Posts,2018-10-29 15:11:43,2018-10-29 15:11:43,0.392s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.006s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 10), ""CommunityDesc"":data.getValue(""CommunityDesc"", 10), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.145s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.002s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.013s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.012s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.014s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:43,2018-10-29 15:11:43,0.011s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19782Verify Display of Community is configured with Enable Blog Posts and Allow File Uploads,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads,2018-10-29 15:11:43,2018-10-29 15:11:44,0.346s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 11), ""CommunityDesc"":data.getValue(""CommunityDesc"", 11), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.143s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.002s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.011s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.018s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.014s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.011s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19784V_19781erify Work flow when Community is configured with Enable Discussion Boards and Enable Blog Posts,Chrome 69.0.3497.100,Verify Configuring with Enable Discussion Boards and Allow File Uploads options in Ad Hoc Community,2018-10-29 15:11:44,2018-10-29 15:11:47,3.065s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 12), ""CommunityDesc"":data.getValue(""CommunityDesc"", 12), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.156s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:44,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:44,2018-10-29 15:11:47,2.430s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.018s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19786Verify Display of Community configured with Enable Discussion Boards and Allow File Uploads,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads,2018-10-29 15:11:47,2018-10-29 15:11:47,0.379s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.003s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 13), ""CommunityDesc"":data.getValue(""CommunityDesc"", 13), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.150s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.017s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.010s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.017s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.023s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19787Verify Work flow when the Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads,Chrome 69.0.3497.100,Verify Work flow when the Ad Hoc Community is configured with Enable Discussion Boards and Allow File Uploads,2018-10-29 15:11:47,2018-10-29 15:11:48,0.368s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:47,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 14), ""CommunityDesc"":data.getValue(""CommunityDesc"", 14), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:47,2018-10-29 15:11:48,0.173s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:48,2018-10-29 15:11:48,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:48,2018-10-29 15:11:48,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:48,2018-10-29 15:11:48,0.016s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19789_19783Verify Work flow when the Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads,Chrome 69.0.3497.100,Verify Work flow when the Ad Hoc Community is configured with Enable Blog Posts and Allow File Uploads,2018-10-29 15:11:48,2018-10-29 15:11:52,4.228s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:48,2018-10-29 15:11:48,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 15), ""CommunityDesc"":data.getValue(""CommunityDesc"", 15), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:51,2018-10-29 15:11:52,0.867s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.000s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.013s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19790_19785Verify Display of Community Enable Discussion Boards Enable Blog Posts and Allow File Uploads,Chrome 69.0.3497.100,Verify Display of Community Content when  Ad Hoc Community is configured with Enable Discussion Boards Enable Blog Posts and Allow File Uploads,2018-10-29 15:11:52,2018-10-29 15:11:52,0.461s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 16), ""CommunityDesc"":data.getValue(""CommunityDesc"", 16), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.199s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.018s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.012s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.013s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.012s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19792Verify Community neither of selecting Enable Discussion Board Enable Blog Posts and Allow File Uploads options,Chrome 69.0.3497.100,Verify Configuring with Ad Hoc Community neither of selecting Enable Discussion Board Enable Blog Posts and Allow File Uploads options,2018-10-29 15:11:52,2018-10-29 15:11:57,4.916s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:52,0.004s,PASSED
+"Statement - resposne = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 17), ""CommunityDesc"":data.getValue(""CommunityDesc"", 17), ""allowDiscussionBoards"":false, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:52,2018-10-29 15:11:57,4.772s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.000s,PASSED
+"Statement - assert com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(resposne, 200)",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC_19872Check the users who will get added to the community will became the contributor by default,Chrome 69.0.3497.100,Check the users who will get added to the community will became the contributor by default,2018-10-29 15:11:57,2018-10-29 15:12:24,26.570s,PASSED
+"Statement - personpk = ""usercontrating3""",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.001s,PASSED
+"Statement - Activity = ""NewActivity__20180719""",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.001s,PASSED
+"Statement - ActivityName = ""'"" + Activity + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.000s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.000s,PASSED
+"Statement - ss = """"",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.001s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.003s,PASSED
+Statement - retValue = false,Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:57,0.001s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 18), ""CommunityDesc"":data.getValue(""CommunityDesc"", 18), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:11:57,2018-10-29 15:11:58,0.161s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:11:58,2018-10-29 15:11:58,0.001s,PASSED
+"Statement - recordset = CustomKeywords.dbConnectionPackage.DBConnectionKeyword.executeQuery(""select * from PERSON where FirstName="" + pk)",Chrome 69.0.3497.100,,2018-10-29 15:11:58,2018-10-29 15:12:13,15.649s,PASSED
+Statement - While (recordset.next()),Chrome 69.0.3497.100,,2018-10-29 15:12:13,2018-10-29 15:12:13,0.005s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:12:13,2018-10-29 15:12:23,10.011s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ss, ""userName"":personpk, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:23,2018-10-29 15:12:23,0.157s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:23,2018-10-29 15:12:23,0.002s,PASSED
+"Statement - communityDetailsRes = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:23,2018-10-29 15:12:24,0.382s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.002s,PASSED
+Statement - CommunityRole = userMembership,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+"Statement - firstIndex = CommunityRole.indexOf(""role"") + 5",Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+Statement - name = CommunityRole.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+"Statement - finalString = name.substring(0, lastIndex)",Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.000s,PASSED
+"Statement - If (finalString == ""3"")",Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.003s,PASSED
+Statement - G_19872BoolValue = retValue,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+Statement - return retValue,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2560 WithinCommunity_MOB-3486/TC-20097_TC-20073_TC-20085Verify owner can invite more than one user for community,Chrome 69.0.3497.100,Verify owner can invite more than one user for community,2018-10-29 15:12:24,2018-10-29 15:12:28,3.957s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.006s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 44), ""CommunityDesc"":data.getValue(""CommunityDesc"", 44), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.148s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:24,0.002s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:12:24,2018-10-29 15:12:25,0.131s,PASSED
+"Statement - res5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 44), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:25,2018-10-29 15:12:25,0.146s,PASSED
+"Statement - RES6 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:25,2018-10-29 15:12:28,3.117s,PASSED
+comment,Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.002s,PASSED
+Statement - memberCount = memberCount,Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.001s,PASSED
+Statement - If (java.lang.Integer.parseInt(memberCount) == 1),Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2552 AdhocCommunity_MOB-3482/TC-19851Check by default all users or groups who are invited to the communitees will be contributor,Chrome 69.0.3497.100,Check by default all users or groups who are invited to the communitees will be contributor,2018-10-29 15:12:28,2018-10-29 15:12:29,0.966s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.007s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 27), ""CommunityDesc"":data.getValue(""CommunityDesc"", 27), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.154s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:28,0.002s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get members from community), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:28,2018-10-29 15:12:29,0.370s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.002s,PASSED
+"Statement - res2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.121s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.012s,PASSED
+validations.Assertions.VerifyElementValue,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.011s,PASSED
+verifyElementsCount,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.018s,FAILED
+,,,,,,
+Test Cases/TestCases/MD-2560 WithinCommunity_MOB-3486/TC_20066Check user can see the description and owner of the community,Chrome 69.0.3497.100,Check user can see the description and owner of the community,2018-10-29 15:12:29,2018-10-29 15:12:29,0.484s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.008s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 21), ""CommunityDesc"":data.getValue(""CommunityDesc"", 21), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.155s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.002s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.015s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.020s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2560 WithinCommunity_MOB-3486/TC_20067Check user can see the community name of the community,Chrome 69.0.3497.100,Check user can see the community name of the community,2018-10-29 15:12:29,2018-10-29 15:12:30,0.353s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:29,0.005s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 19), ""CommunityDesc"":data.getValue(""CommunityDesc"", 19), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:29,2018-10-29 15:12:30,0.134s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.017s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2560 WithinCommunity_MOB-3486/TC_20068Check tabs on the community page which are enabled while creating the community,Chrome 69.0.3497.100,Check tabs on the community page which are enabled while creating the community,2018-10-29 15:12:30,2018-10-29 15:12:30,0.453s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.007s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 22), ""CommunityDesc"":data.getValue(""CommunityDesc"", 22), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.152s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.001s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.001s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.017s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.022s,PASSED
+verifyElementPropertyValue,Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.018s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135398Verify the Community owner is able to create a discussion in community,Chrome 69.0.3497.100,Verify Contributor creating Discussion in a Community,2018-10-29 15:12:30,2018-10-29 15:12:31,1.106s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:30,0.005s,PASSED
+"Statement - Res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 30), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 30)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:30,2018-10-29 15:12:31,0.471s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.001s,PASSED
+"Statement - getDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.349s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.002s,PASSED
+,,,,,,
+"Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135399Verify the Community Owner is able to edit the discussion thread, created by self",Chrome 69.0.3497.100,Verify the Community Owner is able to edit the discussion thread which is created by self in the community page,2018-10-29 15:12:31,2018-10-29 15:12:35,3.989s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.006s,PASSED
+Statement - rand = new java.util.Random(),Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.003s,PASSED
+Statement - rand_int1 = rand.nextInt(1000),Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.001s,PASSED
+"Statement - DisName = data.getValue(""CommunityName"", 31) + rand_int1",Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:31,0.001s,PASSED
+"Statement - responseDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 31), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 31)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:31,2018-10-29 15:12:32,0.181s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.106s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.001s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.001s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.001s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.000s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.000s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.005s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:32,0.397s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:12:32,2018-10-29 15:12:35,2.904s,PASSED
+"Statement - GetDiscussions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:35,2018-10-29 15:12:35,0.113s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:12:35,2018-10-29 15:12:35,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135405Verify the Community Owner is able to create a Blog page in that community page,Chrome 69.0.3497.100,Verify the Community Owner is able to create a Blog page in that community page,2018-10-29 15:12:35,2018-10-29 15:12:40,4.761s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:35,2018-10-29 15:12:35,0.008s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create a blog under community), [""blogName"":data.getValue(""BlogName"", 32), ""blogDesc"":data.getValue(""BlogDesc"", 32), ""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:35,2018-10-29 15:12:36,0.391s,FAILED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135407Verify the Owner of the community page is able to add a blog post in the blog page,Chrome 69.0.3497.100,Verify the Owner of the community page is able to add a blog post in the blog page,2018-10-29 15:12:40,2018-10-29 15:12:40,0.416s,FAILED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:40,2018-10-29 15:12:40,0.004s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:12:40,2018-10-29 15:12:40,0.129s,FAILED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135428Verify the community owner can change his role himself in the community page,Chrome 69.0.3497.100,Verify the community owner can change his role himself in the community page,2018-10-29 15:12:40,2018-10-29 15:12:45,4.660s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:41,2018-10-29 15:12:41,0.003s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 33), ""CommunityDesc"":data.getValue(""CommunityDesc"", 33), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:41,2018-10-29 15:12:45,4.252s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.001s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.110s,PASSED
+Statement - CommunityRole = userMembership,Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.001s,PASSED
+"Statement - firstIndex = CommunityRole.indexOf(""role"") + 5",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.001s,PASSED
+Statement - name = CommunityRole.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.000s,PASSED
+"Statement - finalString = name.substring(0, lastIndex)",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.000s,PASSED
+"Statement - If (finalString == ""3"")",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135438Verify Community Moderator is able to remove the members from the community,Chrome 69.0.3497.100,Verify Community Moderator is able to remove the members from the community,2018-10-29 15:12:45,2018-10-29 15:12:51,5.930s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.004s,PASSED
+"Statement - personpk = data.getValue(""LMUser"", 34)",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.002s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.000s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.000s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 34), ""CommunityDesc"":data.getValue(""CommunityDesc"", 34), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.142s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:45,0.001s,PASSED
+"Statement - addContributerResponse = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ContributerID, ""userName"":data.getValue(""Contributer"", 34), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:45,2018-10-29 15:12:50,4.943s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:50,2018-10-29 15:12:50,0.001s,PASSED
+"Statement - addModeratorResposne = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 34), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:50,2018-10-29 15:12:51,0.130s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.001s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Remove member from community), [""communityID"":CommunityID, ""userid"":ContributerID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.403s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135439Verify Community Moderator is able to modify the roles of the members of the community,Chrome 69.0.3497.100,Verify Community Moderator is able to modify the roles of the members of the community,2018-10-29 15:12:51,2018-10-29 15:12:56,5.561s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.016s,PASSED
+"Statement - personpk = data.getValue(""LMUser"", 34)",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.001s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.001s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 35), ""CommunityDesc"":data.getValue(""CommunityDesc"", 35), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.130s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:51,0.000s,PASSED
+"Statement - addContributerResponse = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ContributerID, ""userName"":data.getValue(""Contributer"", 35), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:51,2018-10-29 15:12:56,4.632s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:56,2018-10-29 15:12:56,0.001s,PASSED
+"Statement - addModeratorResposne = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 34), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:56,2018-10-29 15:12:56,0.134s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:56,2018-10-29 15:12:56,0.002s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create or Update Rating), [""rating"":""2"", ""userID"":g_NameTemp, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:56,2018-10-29 15:12:56,0.380s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:12:56,2018-10-29 15:12:56,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/MD-2560 WithinCommunity_MOB-3486/TC_20061_TC-20060Check Rating provided on Community Page,Chrome 69.0.3497.100,Check Rating provided on Community Page,2018-10-29 15:12:56,2018-10-29 15:13:00,3.233s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:12:57,2018-10-29 15:12:57,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 20), ""CommunityDesc"":data.getValue(""CommunityDesc"", 20), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:12:57,2018-10-29 15:13:00,2.945s,PASSED
+Statement - communityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.001s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create or Update Rating), [""rating"":""1"", ""userID"":g_UserID, ""communityID"":communityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.143s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135441Verify Community Moderator is able to create a discussion thread,Chrome 69.0.3497.100,Verify Community Moderator is able to create a discussion thread,2018-10-29 15:13:00,2018-10-29 15:13:03,3.096s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.004s,PASSED
+"Statement - userName = ""'"" + data.getValue(""Moderator"", 38) + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.000s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.000s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 38), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.127s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:00,0.001s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 38), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:00,2018-10-29 15:13:01,0.539s,PASSED
+"Statement - res3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:01,2018-10-29 15:13:02,1.785s,PASSED
+Statement - ResponseText = res3.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.000s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.001s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.000s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.000s,PASSED
+"Statement - Discussionid = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:02,0.000s,PASSED
+"Statement - res2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create a discussion thread), [""DiscussionID"":Discussionid, ""Comment"":data.getValue(""Comment"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:02,2018-10-29 15:13:03,0.394s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:03,2018-10-29 15:13:03,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135443Verify Community Moderator is able to view discussion thread in the community page,Chrome 69.0.3497.100,Verify Community Moderator is able to view discussion thread in the community page,2018-10-29 15:13:03,2018-10-29 15:13:14,11.204s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:03,2018-10-29 15:13:03,0.003s,PASSED
+"Statement - userName = ""'"" + data.getValue(""Moderator"", 38) + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:13:03,2018-10-29 15:13:03,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:13:03,2018-10-29 15:13:03,0.000s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:13:03,2018-10-29 15:13:13,10.005s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 38), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.113s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.001s,PASSED
+"Statement - responseDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 31), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 31)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.163s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.127s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.001s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.000s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.000s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.001s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.001s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:13,0.001s,PASSED
+"Statement - disThread = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create a discussion thread), [""DiscussionID"":finalString, ""Comment"":data.getValue(""Comment"", 31)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:13,2018-10-29 15:13:14,0.149s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.001s,PASSED
+"Statement - getallDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.381s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135444Verify Community moderator is able to delete discussion thread which is created by self,Chrome 69.0.3497.100,Verify Community moderator is able to delete discussion thread which is created by self,2018-10-29 15:13:14,2018-10-29 15:13:25,11.437s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.007s,PASSED
+"Statement - userName = ""'"" + data.getValue(""Moderator"", 38) + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:14,0.000s,PASSED
+dbConnectionPackage.DBConnectionKeyword.CloseConnections,Chrome 69.0.3497.100,,2018-10-29 15:13:14,2018-10-29 15:13:24,10.008s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 38), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:24,2018-10-29 15:13:25,0.120s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.002s,PASSED
+"Statement - createDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 38), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.197s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.001s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.120s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.002s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.001s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.001s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.000s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.000s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.000s,PASSED
+"Statement - disThread = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create a discussion thread), [""DiscussionID"":finalString, ""Comment"":data.getValue(""Comment"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.229s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.001s,PASSED
+"Statement - deleteDiss = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Delete Discussion Thread), [""DiscussionID"":finalString], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.388s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:25,2018-10-29 15:13:25,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135463Verify Community Moderator is able to provide rating to the community,Chrome 69.0.3497.100,Verify Community Moderator is able to provide rating to the community,2018-10-29 15:13:25,2018-10-29 15:13:26,0.872s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.005s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.119s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create or Update Rating), [""rating"":""5"", ""userID"":g_NameTemp, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.155s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.001s,PASSED
+"Statement - com = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.321s,PASSED
+Statement - getRating = avgRating,Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.001s,PASSED
+Statement - rating = java.lang.Math.round(getRating),Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.006s,PASSED
+"Statement - If (rating == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.001s,PASSED
+"Statement - Else If (!(rating) == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.000s,PASSED
+Statement - Else,Chrome 69.0.3497.100,,2018-10-29 15:13:26,2018-10-29 15:13:26,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135477Verify non member of a public community can provide rating to the community,Chrome 69.0.3497.100,Verify non member of a public community can provide rating to the community,2018-10-29 15:13:26,2018-10-29 15:13:27,0.643s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.007s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 40), ""CommunityDesc"":data.getValue(""CommunityDesc"", 40), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.134s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create or Update Rating), [""rating"":""4"", ""userID"":g_NameTemp, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.155s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+"Statement - com = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.112s,PASSED
+Statement - getRating = avgRating,Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+Statement - rating = java.lang.Math.round(getRating),Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.000s,PASSED
+"Statement - If (rating == ""4"")",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.000s,PASSED
+"Statement - Else If (!(rating) == ""4"")",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+Statement - Else,Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135480Verify Contributor creating Discussion in a Community,Chrome 69.0.3497.100,Verify Contributor creating Discussion in a Community,2018-10-29 15:13:27,2018-10-29 15:13:33,5.668s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.004s,PASSED
+"Statement - userName = ""'"" + data.getValue(""Moderator"", 38) + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.000s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 38), ""CommunityDesc"":data.getValue(""CommunityDesc"", 38), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.133s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:27,0.001s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ContributerID, ""userName"":data.getValue(""Contributer"", 38), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:27,2018-10-29 15:13:32,4.506s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:32,2018-10-29 15:13:32,0.001s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 38), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:32,2018-10-29 15:13:32,0.437s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:32,2018-10-29 15:13:32,0.001s,PASSED
+"Statement - getAllDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:32,2018-10-29 15:13:33,0.350s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135481Verify Contributor Editing Discussion in a Community,Chrome 69.0.3497.100,Verify Contributor Editing Discussion in a Community,2018-10-29 15:13:33,2018-10-29 15:13:44,11.331s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.006s,PASSED
+Statement - rand = new java.util.Random(),Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.001s,PASSED
+"Statement - newDiscussionName = data.getValue(""DiscussionName"", 38) + rand.nextInt(1000)",Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.001s,PASSED
+"Statement - userName = ""'"" + data.getValue(""Moderator"", 38) + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.001s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.001s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 38), ""CommunityDesc"":data.getValue(""CommunityDesc"", 38), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:33,2018-10-29 15:13:33,0.141s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.001s,PASSED
+"Statement - response1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ContributerID, ""userName"":data.getValue(""Contributer"", 38), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.127s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.002s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Create discussion under community), [""CommunityID"":CommunityID, ""DiscussionName"":data.getValue(""DiscussionName"", 38), ""DiscussionDesc"":data.getValue(""DiscussionDesc"", 38)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.286s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.110s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.001s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.001s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.000s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.001s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.000s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:38,0.001s,PASSED
+"Statement - editDis = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Eidt Discussion), [""DiscussionName"":newDiscussionName, ""DiscussionID"":finalString], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:38,2018-10-29 15:13:44,5.494s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.001s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135482Verify Contributor Deleting own Discussion in a Community,Chrome 69.0.3497.100,Verify Contributor Deleting own Discussion in a Community,2018-10-29 15:13:44,2018-10-29 15:13:50,6.305s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 30), ""CommunityDesc"":data.getValue(""CommunityDesc"", 30), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.125s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.001s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:44,0.138s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:44,2018-10-29 15:13:45,0.174s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:45,2018-10-29 15:13:50,5.253s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.001s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.000s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.001s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.001s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.000s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.000s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Delete Discussion Thread), [""DiscussionID"":finalString], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.391s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:50,2018-10-29 15:13:50,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135483Verify Contributor replying to Discussion in a Community,Chrome 69.0.3497.100,Verify Contributor replying to Discussion in a Community,2018-10-29 15:13:50,2018-10-29 15:13:57,6.427s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:51,2018-10-29 15:13:51,0.004s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 46), ""CommunityDesc"":data.getValue(""CommunityDesc"", 46), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:51,2018-10-29 15:13:51,0.142s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:13:51,2018-10-29 15:13:51,0.001s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:51,2018-10-29 15:13:51,0.128s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:51,2018-10-29 15:13:56,5.339s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.114s,PASSED
+Statement - DiscussionId = discussions,Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.001s,PASSED
+Statement - ResponseText = res1.getResponseText(),Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.000s,PASSED
+"Statement - id = """"id""""",Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.000s,PASSED
+Statement - firstIndex = ResponseText.indexOf(id) + id.length(),Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.001s,PASSED
+Statement - name = ResponseText.substring(firstIndex),Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.000s,PASSED
+"Statement - lastIndex = name.indexOf("","")",Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.001s,PASSED
+"Statement - finalString = name.substring(0, lastIndex).replace("""""", """").replaceAll(""[:]"", """").trim()",Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:56,0.000s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Create a discussion thread), [""DiscussionID"":finalString, ""Comment"":data.getValue(""Comment"", 46)], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:13:56,2018-10-29 15:13:57,0.449s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:13:57,2018-10-29 15:13:57,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135500Verify Contributor of a community is able to view discussions created by others,Chrome 69.0.3497.100,Verify Contributor of a community is able to view discussions created by others,2018-10-29 15:13:57,2018-10-29 15:14:02,5.620s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:13:57,2018-10-29 15:13:57,0.003s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:57,2018-10-29 15:13:57,0.159s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:13:57,2018-10-29 15:14:02,5.105s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Contributer/Get Discussions), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:02,2018-10-29 15:14:02,0.137s,PASSED
+containsString,Chrome 69.0.3497.100,,2018-10-29 15:14:02,2018-10-29 15:14:02,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135440Verify Community Moderator is able to add Users to the community,Chrome 69.0.3497.100,Verify Community Moderator is able to add Users to the community,2018-10-29 15:14:02,2018-10-29 15:14:08,6.129s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.005s,PASSED
+"Statement - personpk = data.getValue(""LMUser"", 34)",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.002s,PASSED
+"Statement - pk = ""'"" + personpk + ""'""",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.000s,PASSED
+"Statement - userid = """"",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.000s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 36), ""CommunityDesc"":data.getValue(""CommunityDesc"", 36), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.146s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.001s,PASSED
+"Statement - addModeratorResposne = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Contributer"", 36), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.139s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:03,0.002s,PASSED
+"Statement - addContributerResponse = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Add a member to community), [""rating"":""2"", ""userID"":ContributerID, ""userName"":ContributerUser, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:03,2018-10-29 15:14:08,5.590s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:08,2018-10-29 15:14:08,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135505Verify Contributor of a community is able to provide rating to the community,Chrome 69.0.3497.100,Verify Contributor of a community is able to provide rating to the community,2018-10-29 15:14:08,2018-10-29 15:14:09,0.628s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.005s,PASSED
+"Statement - response4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""3"", ""userID"":ContributerID, ""userName"":ContributerUser, ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.107s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.002s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.149s,PASSED
+"Statement - com = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.105s,PASSED
+Statement - getRating = avgRating,Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.001s,PASSED
+Statement - rating = java.lang.Math.round(getRating),Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.000s,PASSED
+"Statement - If (rating == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.000s,PASSED
+"Statement - Else If (!(rating) == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.000s,PASSED
+Statement - Else,Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:09,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135509Verify Non Member can View the star rating but cannot edit it for private community,Chrome 69.0.3497.100,Verify Non Member can View the star rating but cannot edit it for private community,2018-10-29 15:14:09,2018-10-29 15:14:15,5.765s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:14:09,2018-10-29 15:14:14,5.129s,PASSED
+"Statement - response = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 41), ""CommunityDesc"":data.getValue(""CommunityDesc"", 41), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:14,2018-10-29 15:14:15,0.127s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.140s,PASSED
+"Statement - com = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Get Community details by ID), [""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.112s,PASSED
+Statement - getRating = avgRating,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+Statement - rating = java.lang.Math.round(getRating),Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.000s,PASSED
+"Statement - If (rating == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.000s,PASSED
+"Statement - Else If (!(rating) == ""5"")",Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.000s,PASSED
+Statement - Else,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135424Verify the default role of the user added to the community is a contributor role,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.126s,PASSED
+Statement - retValue = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+Statement - If (G_19872BoolValue == true),Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.001s,PASSED
+Statement - If (retValue == true),Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.002s,PASSED
+,,,,,,
+Test Cases/TestCases/Social_SecurityAndRole_MOB-3489/TC-135456_TC-135457 Moderator is able to delete blog post in the Blog pcreated by self,Chrome 69.0.3497.100,Verify Community Moderator is able to delete blog post in the Blog page which is created by self,2018-10-29 15:14:15,2018-10-29 15:14:27,11.538s,PASSED
+Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData),Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:15,0.005s,PASSED
+"Statement - res = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Create Community), [""communityName"":data.getValue(""CommunityName"", 48), ""CommunityDesc"":data.getValue(""CommunityDesc"", 48), ""allowDiscussionBoards"":true, ... ], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:15,2018-10-29 15:14:20,5.249s,PASSED
+Statement - CommunityID = id,Chrome 69.0.3497.100,,2018-10-29 15:14:20,2018-10-29 15:14:20,0.001s,PASSED
+"Statement - res1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Community/Add a member to community), [""rating"":""2"", ""userID"":g_NameTemp, ""userName"":data.getValue(""Moderator"", 48), ""communityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:20,2018-10-29 15:14:21,0.121s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:21,0.001s,PASSED
+"Statement - res2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Create a blog under community), [""blogName"":data.getValue(""BlogName"", 48), ""blogDesc"":data.getValue(""BlogDesc"", 48), ""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:21,0.360s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:21,0.001s,PASSED
+"Statement - res3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Get Blog Details), [""CommunityID"":CommunityID], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:21,0.347s,PASSED
+"Statement - val = CustomKeywords.getString.GetString.GetStringFromResponse(""id"", res3)",Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:21,0.006s,PASSED
+"Statement - res4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Library/Moderator/Delete Blog), [""CommunityID"":CommunityID, ""BlogID"":val], STOP_ON_FAILURE)",Chrome 69.0.3497.100,,2018-10-29 15:14:21,2018-10-29 15:14:27,5.221s,PASSED
+verifyResponseStatusCode,Chrome 69.0.3497.100,,2018-10-29 15:14:27,2018-10-29 15:14:27,0.001s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit Discussion</description>
+   <name>Eidt Discussion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4fc853d-4729-46bb-bcbf-da56b357dc93</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6781dad1-6db1-4723-9b0d-423ea1f65b14</id>
+      <masked>false</masked>
+      <name>DiscussionName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a661fc84-0d3f-47e2-a30a-29dbbdaf0dd0</id>
+      <masked>false</masked>
+      <name>DiscussionID</name>
+   </variable>
+</TestCaseEntity>

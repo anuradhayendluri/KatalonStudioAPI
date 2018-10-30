@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Blog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7182abb9-5f1f-4989-8ca5-8b5b38188420</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>548f2648-e7c8-478c-839e-1b34659254ef</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b87d422c-874c-4d21-8ef8-b291f096ce5e</id>
+      <masked>false</masked>
+      <name>BlogID</name>
+   </variable>
+</TestCaseEntity>

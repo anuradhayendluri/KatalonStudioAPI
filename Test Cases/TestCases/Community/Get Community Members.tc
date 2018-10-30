@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get the members of an existing Community</description>
+   <name>Get Community Members</name>
+   <tag></tag>
+   <comment>Community ID &quot; + communityDatalist[0]
+Get Community Count RESPONSE &quot; + getcommunityMemberRes.getResponseSize()</comment>
+   <testCaseGuid>0c479446-5127-4332-aa50-bc1a712e5640</testCaseGuid>
+</TestCaseEntity>

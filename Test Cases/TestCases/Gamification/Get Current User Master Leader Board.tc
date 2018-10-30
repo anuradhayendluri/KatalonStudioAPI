@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get the number of owners of an existing Community</description>
+   <name>Get Current User Master Leader Board</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6984abc8-60fe-4a44-ad73-f089e346ffab</testCaseGuid>
+</TestCaseEntity>

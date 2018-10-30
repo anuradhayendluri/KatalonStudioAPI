@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create discussion under community</description>
+   <name>Create discussion under community</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8939c70b-6f4a-4d33-bf44-5fb88163126b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43168512-589b-49a7-bcf0-005ec4e4b850</id>
+      <masked>false</masked>
+      <name>CommunityID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>265b2079-7a22-4475-924c-388e25714a5f</id>
+      <masked>false</masked>
+      <name>DiscussionName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e21b64c-9dc1-4691-a44d-07ddb171e778</id>
+      <masked>false</masked>
+      <name>DiscussionDesc</name>
+   </variable>
+</TestCaseEntity>
